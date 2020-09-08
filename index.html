@@ -179,10 +179,8 @@
                   </div></td>
                 </tr><tr>
                     <td><div>
-                    <label class="container"><input id="optMusic" tabindex="-1" class="checkbox" type="checkbox" onchange="myfunction(this)"><span class="checkmark"></span>Music</label>
-                  </div></td>
-                  <td><div style="display:none;">
-                    <label class="container"><input id="optPointy" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Sharp Edges</label>
+                    <label class="container"><input id="optPointy" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Milter Edges</label>
+              
                   </div></td>
                 
                 </tr>
@@ -230,24 +228,20 @@
       colno: colno,
       error: error
     })
-    prompt('The game may have crashed, refresh the page to recover from error. If this is a private server, make sure to check the changelog for any server updates. Error information:', e)
   }
   </script>
   <script src="./bundle.js"></script>
 </body>
 </html>
    <script>
-  var audio = new Audio('https://cdn.glitch.com/661c571e-66d1-4e10-a4ea-17b63f0124b7%2FFransis%20Derelle%20-%20Fly%20(feat.%20Parker%20Pohill)%20%5BNCS%20Release%5D.mp3?v=1599236171637');
   audio.oncanplay = function() {
-    if (document.getElementById("optMusic").checked) this.play()
+    if (document.getElementById("").checked) this.play()
   }
     
   function myfunction(el) {    
     if (el.checked) {
-      audio.load();
     }
       if (!el.checked) {
-      audio.pause();
     }
   }
 </script>

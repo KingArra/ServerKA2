@@ -17,7 +17,7 @@ var serverid = "ffa";
 
 var serverat = server1;
 var servertype = "ffa";
-var servercode = "crublex-heroku-ffa";
+var servercode = "usa-montral-4tdmmaze";
 var serversecure = 1;
 function unselect() {
   //unselect all shit
@@ -42,9 +42,9 @@ function server4select() {
   document.getElementById("s4").style.color = selected;
 
   servertype = "mom";
-  servercode = "crublex-heroku-mom";
-  serverat = "crublex-mothership.herokuapp.com";
-  serverid = "mom";
+  servercode = "usa-md-4tdmmaze";
+  serverat = "short-diamond-pumpkin.glitch.me";
+  serverid = "4tdmmaze";
   location.hash = serverid;
   serversecure = 1;
   }
@@ -68,7 +68,7 @@ function server2select() {
   serverid = "dev";
   location.hash = serverid;
   serversecure = 1;
-  servercode = "crublex-glitch-dev";
+  servercode = "usa-montreal-defendermode";
 }
 function server3select() {
   unselect();
