@@ -1,12 +1,14 @@
 # <u>PATCH 09/08/2020</u>
 
+
+- The notification for Waves will now be Yellow. Arena Closing Message will now be Red. 
+
 - Temporarily removed Some Servers.
 
 - Added Gradient Upgrade Colors
 
 - Added a feature: Entering a Developer Token and pressing X will allow you to control the Base Protector on your team.
 
-- Finishing the Base work for the big Client Update
 
 
 # <u>PATCH 09/07/2020</u>
