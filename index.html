@@ -102,9 +102,8 @@
                   </tr>
                 </tbody>
               </table>
-              <div class="optionsHeader">Themes & Graphics</div>
-               <select id="optColors" tabindex="-1" onchange="document.getElementById('optCustom').style.display = this.value === 'custom' ? 'block' : 'none'" onfocus="document.getElementById('optCustom').style.display = this.value === 'custom' ? 'block' : 'none'">
-                 <option value="crublex">Crublex</option>
+     <div class="optionsHeader">Themes & Graphics</div>
+              <select id="optColors" tabindex="-1" onchange="document.getElementById('optCustom').style.display = this.value === 'custom' ? 'block' : 'none'" onfocus="document.getElementById('optCustom').style.display = this.value === 'custom' ? 'block' : 'none'">
                 <option value="normal">Light Colors</option>
                 <option value="dark">Dark Colors</option>
                 <option value="natural">Natural</option>
@@ -158,37 +157,37 @@
                   </div></td>
                   <td><div style="display:none;">
                     <label class="container"><input id="optPointy" tabindex="-1" class="checkbox" type="checkbox"><span class="checkmark"></span>Sharp Edges</label>
-                  </div></td>
-                
+                 </div></td>
                 </tr>
               </table>
-              
+              <div class="optionsHeader">More Links</div>
+              <center>
+                <a tabindex="-1" href="https://codepen.io/road-to-100k/full/MPyOeQ/">Road's Custom Theme Maker</a>
+                <br>
+                <a tabindex="-1" href="https://glitch.com/edit/#!/arras-template?path=README.md">Private Server Template</a>
+                &nbsp;&nbsp;&nbsp;
+                <a tabindex="-1" href="/custom-shape">Custom Shape Builder</a>
+                <br>
+                <a tabindex="-1" href="http://arras-proxy.surge.sh/">Proxy Server</a>
+                &nbsp;&nbsp;&nbsp;
+                <a tabindex="-1" href="https://arras-lb.glitch.me/donate">Donate via Stripe</a>
+              </center>
             </div>
           </div>
           <div style="position: relative; bottom: -10px;">
             <button id="startButton" tabindex="2">Play</button>
-           <div id="bottomHolder">
-            <a style="background:#7289da" href="https://discord.gg/7nDqcMc">Discord</a>
-            <a style="background:linear-gradient(to right, #0000ff, #ffffff);" href="https://dexamenes.surge.sh/">Dexamenes.io</a>
-            <a style="background:#3893ff" href="https://lateral-point.glitch.me/">TCArras</a>
-          </div>
           </div>
         </div>
-        <div class="startMenuHolder shrinkable" style="left: 2%">
-          <h3>
-          </h3>
-           <div class="serverSelector shadowScroll" id="serverselectorlol"><table><tbody id="serverSelector"></tbody><div id="s"><h3 id="s3" onclick="server3select()">We Will Add More Players When we have enough servers.</h3><h3 style="color:magenta;" id="s1" onclick="server1select()">Heroku | Europe | FFA</h3>
-                <h3 onclick="server4select()" id="s4" style="color:#525252;">Heroku | Europe | 2 Team Mothership</h3><h3 onclick="server2select()" id="s2" style="color:#525252;">Glitch | US East | Developer Server</h3></div></table></div>
-              
+        <div class="startMenuHolder shrinkable">
           <div class="changelogSelectorContainer">
             <div class="changelogSelector" id="changelogSelector">
-              <h3>
-                Changelog
-              </h3>
+              <span data-type="updates" class="active" title="All major updates">Updates</span>
+              <span data-type="events" title="Major updates involving events or gamemodes">Events &amp; Gamemodes</span>
+              <span data-type="balances" title="Every balance update, major or minor">Balance</span>
+              <span data-type="changelog" title="Every single update">Changelog</span>
             </div>
           </div>
           <div id="patchNotes" class="shadowScroll updates"></div>
-            
         </div>
       </div>
     </div>
