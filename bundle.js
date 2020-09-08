@@ -5880,7 +5880,7 @@ function startgameee() {
                   break;
                 case a.KEY_MAKEURSELFBIG:
                   a.messages.push({
-                    text: "red_You must enter a Token to control a Base Protector.",
+                    text: "red_You must enter the Developer Token to control a Base Protector.",
                     status: 2,
                     alpha: 0,
                     time: Date.now()
