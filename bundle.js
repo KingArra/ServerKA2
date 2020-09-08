@@ -30,12 +30,12 @@ function server1select() {
   unselect();
   document.getElementById("s1").style.color = selected;
 
-  servertype = "ffa";
-  servercode = "crublex-heroku-ffa";
-  serverat = server1;
-  serverid = "ffa";
+  serverat = "lateral-treasure-breeze.glitch.me";
+  servertype = "dev";
+  serverid = "dev";
   location.hash = serverid;
   serversecure = 1;
+  servercode = "usa-glitch-4tdm";
 }
 function server4select() {
   unselect();
