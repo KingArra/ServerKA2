@@ -1064,8 +1064,8 @@ function startgameee() {
 
       function ka(b, a, c, h) {
         g.beginPath();
-        g.lineTo(Math.round(b) + 0.5, Math.round(a) + 0.5);
-        g.lineTo(Math.round(c) + 0.5, Math.round(h) + 0.5);
+        g.lineTo(Math.round(b) + 0.5, Math.round(a) + 0.2);
+        g.lineTo(Math.round(c) + 0.5, Math.round(h) + 0.2);
         g.stroke();
       }
 
@@ -1160,7 +1160,7 @@ function startgameee() {
 
       function za() {
         b.animLoopHandle = requestAnimationFrame(za);
-        z.renderv += (z.view - z.renderv) / 30;
+        z.renderv += (z.view - z.renderv) / 10;
         g.lineCap = "round";
         g.lineJoin = "round";
         b.gameStart &&
@@ -4380,12 +4380,12 @@ function startgameee() {
                     );
                     g.globalAlpha = 0.5;
                     g.fillStyle = e(u + 37 + randomgradient);
-                    roundRect(c, d, 100, 100, 20);
+                    roundRect(c, d, 100, 100, 10);
                     g.fill();
                     g.globalAlpha = 0.1;
                     g.fillStyle = e(u + 37 + randomgradient);
                     u++;
-                    roundRect(c, d, 100, 60, 20);
+                    roundRect(c, d, 100, 100, 10);
                     g.fill();
                     g.fillStyle = l.black;
                     halfRoundRect(c, d + 60, 100, 40, 20);
@@ -4435,7 +4435,7 @@ function startgameee() {
                     g.strokeStyle = l.black;
                     g.globalAlpha = 1;
                     g.lineWidth = 3;
-                    roundRect(c, d, 100, 100, 20);
+                    roundRect(c, d, 100, 100, 10);
                     g.stroke();
                     0 !== ++x % 6 || b.mobile
                       ? (c += 114 * a)
@@ -5024,7 +5024,7 @@ function startgameee() {
         KEY_MOUSE_1: 9,
         KEY_MOUSE_2: 16,
         KEY_FUCK_YOU: 89,
-        KEY_MAKEURSELFBIG: 71,
+        KEY_MAKEURSELFBIG: 88,
         screenWidth: window.innerWidth,
         screenHeight: window.innerHeight,
         gameWidth: 0,
