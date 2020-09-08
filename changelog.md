@@ -1,5 +1,7 @@
 # <u>PATCH 09/08/2020</u>
 
+- Temporarily removed Some Servers.
+
 - Added Gradient Upgrade Colors
 
 - Added a feature: Entering a Developer Token and pressing X will allow you to control the Base Protector on your team.
