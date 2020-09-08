@@ -11,8 +11,8 @@ var hashlocate = location.hash;
 hashlocate = hashlocate.slice(1);
 
 document.getElementById("s3").style.display = "none";
-var unselected = "#525252";
-var selected = "blue";
+var unselected = "#828282";
+var selected = "#1797e6";
 var serverid = "ffa";
 
 var serverat = server1;
@@ -47,6 +47,17 @@ function server4select() {
   serverid = "mom";
   location.hash = serverid;
   serversecure = 1;
+  }
+function server5select() {
+  unselect();
+  document.getElementById("s4").style.color = selected;
+
+  servertype = "dev";
+  servercode = "usa-montreal-dev";
+  serverat = "unknownserveraigl.glitch.me";
+  serverid = "dev";
+  location.hash = serverid;
+  serversecure = 1;
 }
 function server2select() {
   unselect();
@@ -79,6 +90,10 @@ if (hashlocate === "dev") {
 }
 if (hashlocate === "mom") {
   server4select();
+  }
+if (hashlocate === "developer") {
+  server5select();
+  
 }
 if (hashlocate.startsWith("priv=")) {
   hashlocate = hashlocate.slice(5);
