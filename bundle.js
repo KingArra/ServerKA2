@@ -2694,7 +2694,7 @@ function startgameee() {
                 });
                 if (10 > S.length)
                   setTimeout(() => g.talk("S", Date.now() - P - Q), 75),
-                    (b.message = `Loading... ${10 * S.length}%`);
+                    (b.message = `Syncing clocks, please do not tab away! ${1*S.length}/10...`);
                 else {
                   S.sort((b, a) => b.latency - a.latency);
                   let a = S[Math.floor(S.length / 2)].latency,
@@ -4977,7 +4977,7 @@ function startgameee() {
       w = 25 <= w ? 0 : 3;
       const e = {
         help: {
-          KEY_OVER_RIDE: "R",
+      KEY_OVER_RIDE: "R",
           KEY_LEVEL_UP: "N",
           KEY_ABILITY: "F",
           KEY_CHOOSE_1: "Y",
@@ -4988,24 +4988,32 @@ function startgameee() {
           KEY_CHOOSE_6: "K"
         },
         KEY_AUTO_FIRE: 69,
-        KEY_PASSIVE: 74,
         KEY_AUTO_SPIN: 67,
         KEY_OVER_RIDE: 82,
         KEY_LEVEL_UP: 78,
-
+        KEY_ABILITY: 70,
+        KEY_REVERSE_TANK: 86,
+        KEY_REVERSE_MOUSE: 66,
         KEY_SCREENSHOT: 81,
         KEY_UPGRADE_MAX: 77,
-
+        KEY_CLASS_TREE: 84,
         KEY_RECORD: 90,
         KEY_UP: 87,
         KEY_PING: 76,
         KEY_LEFT: 65,
         KEY_DOWN: 83,
         KEY_RIGHT: 68,
-
+        KEY_CHOOSE_1: 89,
+        KEY_CHOOSE_2: 85,
+        KEY_CHOOSE_3: 73,
+        KEY_CHOOSE_4: 72,
+        KEY_CHOOSE_5: 74,
+        KEY_CHOOSE_6: 75,
+        KEY_CHOOSE_7: -1,
+        KEY_CHOOSE_8: -1,
+        KEY_CHOOSE_9: -1,
         KEY_ENTER: 13,
         KEY_SPAWN: 13,
-        KEY_RAINBOW: 88,
         KEY_LEFT_ARROW: 37,
         KEY_UP_ARROW: 38,
         KEY_RIGHT_ARROW: 39,
@@ -5023,14 +5031,16 @@ function startgameee() {
         KEY_MOUSE_0: 32,
         KEY_MOUSE_1: 9,
         KEY_MOUSE_2: 16,
-        KEY_FUCK_YOU: 89,
-        KEY_MAKEURSELFBIG: 88,
+        KEY_FUCK_YOU: 192,
+        KEY_KILL_YOURSELF: 79,
         screenWidth: window.innerWidth,
         screenHeight: window.innerHeight,
         gameWidth: 0,
         gameHeight: 0,
         gameStart: !1,
         disconnected: !1,
+        KEY_MAKEURSELFBIG: 88,
+
         died: !1,
         showDebug: !1,
         showTree: !1,
