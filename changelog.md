@@ -1,3 +1,33 @@
+# <u>PATCH 09/07/2020</u>
+
+- Added a Developer Server to the Server Selector.
+
+# <u>PATCH 09/06/2020</u>
+
+- Added Tripathan to the Page IV (Developer Branch)
+
+
+# <u>PATCH 09/04/2020</u>
+
+- Added Page IV for Beta Tester Tanks.
+
+
+# <u>PATCH 09/02/2020</u>
+
+- Fixed Developer Branches in 4TDM
+
+- Fixed 4TDM Tank definitions. 
+
+- Updated Token System. 
+
+
+# <u>PATCH 09/01/2020: Site Changes</u>
+
+- Added Dominators and Bosses to Developer Branch.
+
+- Deployed KA2 Arras to a Netlify Domain.
+
+
 # <u>PATCH 08/24/2020: The Bots are taking over, lol</u>
 
 - There is a weird Bug in Defender Mode, people can publicly access TESBED. Founded by Dev Moslem.
@@ -506,5 +536,4 @@
 - Changed the buttons and colors to Red. Left the Background the same normal color.
 
 - This is the official Arras Game Client of King Arras 2! Please subscribe to my Youtube Channel, Thanks for Playing! :D
-
 

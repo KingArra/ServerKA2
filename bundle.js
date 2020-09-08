@@ -31,8 +31,8 @@ function server1select() {
   document.getElementById("s1").style.color = selected;
 
   serverat = "lateral-treasure-breeze.glitch.me";
-  servertype = "dev";
-  serverid = "dev";
+  servertype = "4tdm";
+  serverid = "4tdm";
   location.hash = serverid;
   serversecure = 1;
   servercode = "usa-glitch-4tdm";
@@ -4273,7 +4273,7 @@ function startgameee() {
                       : 0));
                 0 < O.data.length &&
                   V.draw(
-                    "Leaderboard",
+                    "Scoreboard",
                     Math.round(c + 100) + 0.5,
                     Math.round(d - 10) + 0.5,
                     18,
