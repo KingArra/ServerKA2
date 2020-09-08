@@ -39,16 +39,27 @@
         <!--<a class="menuTab discord" href="/logout">Log out</a>
         <a class="menuTab stat" href="/stats">View stats</a>-->
         <!--<a class="menuTab discord" href="/login">Log in via Discord</a>-->
-      </div>
-      <div id="startMenu">
-        <div class="startMenuHolder" style="height:320px">
-          <div class="sliderHolder">
+    </div>
+       <div id="startMenu">
+                <div id="twitterHolder" class="startMenuHolder">
+                    <iframe src="https://discord.com/widget?id=728581524164837418&theme=dark" width="350" height="315" allowtransparency="true" frameborder="0"></iframe>
+                    <div id="bottomHolder">
+                        <!--h5 class="nopadding" style="margin:0; display:inline">Invites: </h5-->
+                              <a style="background: #7289DA" href="https://discord.com/invite/fDnErUX">Discord</a>
+            <a style="background: #F74501" href="https://www.reddit.com/r/Diep2io/">Reddit</a>
+            <a style="background: #F71701" href="https://www.youtube.com/channel/kingarras2">YouTube</a>
+                    </div>
+                </div>
+                <div class="startMenuHolder">
+                    <div class="sliderHolder">
             <div class="slider startMenuSlidingContent">
-              <center><img src="https://cdn.glitch.com/661c571e-66d1-4e10-a4ea-17b63f0124b7%2FAds%C4%B1z%20%C3%A7izim%20(3).png?v=1598878980966" class="icon" alt="arras icon"></center>
-              <h1>Crublex.io</h1>
-              
-              <input type="text" autofocus tabindex="1" spellcheck="false" placeholder="This is the tale of" id="playerNameInput" maxlength="28">
-              <input type="password" tabindex="1" placeholder="Token (leave blank if not beta-tester)" id="playerKeyInput" maxlength="48">
+              <center><a href="http://arras-client-template-new.glitch.me" class="icon" tabindex="-1"><img src="https://cdn.glitch.com/11c5c5db-c9db-47f4-8ee4-84768a2a98de%2Fimageonline-co-transparentimage%20(3)%20(2).png?v=1591908547206" class="icon" alt="arras icon"></a></center>
+              <h1>KA2's Arras</h1>
+  <div class="serverSelector shadowScroll" id="serverselectorlol"><table><tbody id="serverSelector"></tbody><div id="s"><h3 id="s3" onclick="server3select()">We Will Add More Players When we have enough servers.</h3><h3 style="color:magenta;" id="s1" onclick="server1select()">Glitch | US East | 4TDM</h3>
+                <h3 onclick="server4select()" id="s4" style="color:#525252;">Heroku | Europe | 2 Team Mothership</h3><h3 onclick="server2select()" id="s2" style="color:#525252;">Glitch | US East | Defender Mode</h3></div></table></div>
+                            <input type="text" autofocus tabindex="1" spellcheck="false" placeholder="This is the tale of" id="playerNameInput" maxlength="30">
+              <input type="password" tabindex="1" placeholder="Token (beta testers only)" id="playerKeyInput" maxlength="512">
+
             </div>
             <div class="slider" id="startMenuSlidingTrigger">
              
@@ -168,18 +179,14 @@
           <div style="position: relative; bottom: -10px;">
             <button id="startButton" tabindex="2">Play</button>
            <div id="bottomHolder">
-            <a style="background:#7289da" href="https://discord.gg/7nDqcMc">Discord</a>
-            <a style="background:linear-gradient(to right, #0000ff, #ffffff);" href="https://dexamenes.surge.sh/">Dexamenes.io</a>
-            <a style="background:#3893ff" href="https://lateral-point.glitch.me/">TCArras</a>
+          
           </div>
           </div>
         </div>
         <div class="startMenuHolder shrinkable" style="left: 2%">
           <h3>
           </h3>
-           <div class="serverSelector shadowScroll" id="serverselectorlol"><table><tbody id="serverSelector"></tbody><div id="s"><h3 id="s3" onclick="server3select()">We Will Add More Players When we have enough servers.</h3><h3 style="color:magenta;" id="s1" onclick="server1select()">Heroku | Europe | FFA</h3>
-                <h3 onclick="server4select()" id="s4" style="color:#525252;">Heroku | Europe | 2 Team Mothership</h3><h3 onclick="server2select()" id="s2" style="color:#525252;">Glitch | US East | Developer Server</h3></div></table></div>
-              
+           
           <div class="changelogSelectorContainer">
             <div class="changelogSelector" id="changelogSelector">
               <h3>
