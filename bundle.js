@@ -6,17 +6,17 @@ metalball.src =
 metalball.onload = function() {
   metalballLoaded = true;
 };
-var server1 = "crublex-ffa.herokuapp.com";
+var server1 = "";
 var hashlocate = location.hash;
 hashlocate = hashlocate.slice(1);
 
 document.getElementById("s3").style.display = "none";
 var unselected = "#828282";
 var selected = "#1797e6";
-var serverid = "ffa";
+var serverid = "4tdmmaze";
 
 var serverat = server1;
-var servertype = "ffa";
+var servertype = "4tdmmaze";
 var servercode = "usa-montral-4tdmmaze";
 var serversecure = 1;
 function unselect() {
@@ -82,7 +82,7 @@ function alertserverid() {
   alert(serverid);
 }
 server1select();
-if (hashlocate === "ffa") {
+if (hashlocate === "ka2") {
   server1select();
 }
 if (hashlocate === "dev") {
@@ -2053,7 +2053,7 @@ function startgameee() {
         "" === document.getElementById("optMobile").value &&
         (document.getElementById("optMobile").value = "joysticks");
       "" === document.getElementById("optBorders").value &&
-        (document.getElementById("optBorders").value = "crublex");
+        (document.getElementById("optBorders").value = "");
       let fa = document.getElementById("optCustom");
       fa.oninput = () => {
         (fa.value
@@ -5178,9 +5178,9 @@ function startgameee() {
           },
           {
             id: "a",
-            type: "1ffa",
-            code: "crublex-heroku-ffa",
-            at: "crublex-ffa.herokuapp.com"
+            type: "ka2server",
+            code: "usa-montreal",
+            at: ""
           }
         ]
           .map((a, e) => ({
